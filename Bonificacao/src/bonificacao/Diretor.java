@@ -1,4 +1,4 @@
-﻿package bonificacao;
+package bonificacao;
 
 public class Diretor extends Funcionario {
 	private double salarioFixo;

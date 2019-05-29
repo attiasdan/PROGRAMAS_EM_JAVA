@@ -143,8 +143,8 @@ public class Tela extends JFrame {
 				String saida="\n Funcionários: \n";
 
     			for(int i=0; i < funcionarios.size(); i++) {
-    				saida += "posição: " + i + funcionarios.get(i).toString() + "\n";
-    				i++;
+    				saida += "pos: " + i + funcionarios.get(i).toString() +"\n"+ 
+    						funcionarios.get(i).getBonificacao()+ "\n\n";
     			}
     			JTextArea area = new JTextArea(saida,30,30);
     			JOptionPane.showMessageDialog(null,area);

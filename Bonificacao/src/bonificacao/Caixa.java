@@ -1,4 +1,4 @@
-﻿package bonificacao;
+package bonificacao;
 
 public class Caixa extends Funcionario {
 	private double salario;

@@ -1,4 +1,4 @@
-﻿package bonificacao;
+package bonificacao;
 
 public class Engenheiro extends Funcionario{
 	private int qtdadeVistorias;

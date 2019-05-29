@@ -1,4 +1,4 @@
-﻿package bonificacao;
+package bonificacao;
 
 public abstract class Funcionario {
 	private String nome;
@@ -15,7 +15,7 @@ public abstract class Funcionario {
 	
 	@Override
 	public String toString() {
-		return "Funcionario [nome=" + nome + ", departamentoOuSetor=" + departamentoOuSetor + "]";
+		return "[nome=" + nome + "]";
 	}
 	
 	public String getNome() {
