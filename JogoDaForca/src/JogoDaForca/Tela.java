@@ -1,3 +1,10 @@
+/**
+* PROGRAMA: Jogo da Forca.
+* CLASSE: Tela
+* AUTORES: Daniel Attias e Paulo Victor.
+* DATA: 11/06/2019.
+*/
+
 package JogoDaForca;
 
 import java.awt.BorderLayout;
@@ -41,14 +48,6 @@ public class Tela extends JFrame
 		
 		if (palavra.length() == 0)
 			entradaInicial();
-	}
-	
-	public int buscaLetraNaPalavra() {
-		int pos = -1;
-		
-		pos = palavra.indexOf(letra);
-		
-		return pos;
 	}
 	
 	public Tela() {
